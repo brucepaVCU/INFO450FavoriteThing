@@ -10,7 +10,7 @@ class FavoriteCDList
 {
 protected:
 	int numCDs;
-	FavoriteCD myList[100];//creates array of FavoriteCD objects
+	FavoriteCD myList[100];//creates an array of FavoriteCD objects
 public:
 	FavoriteCDList();
 	void addCD(string art, string alb);
